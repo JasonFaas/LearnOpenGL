@@ -66,6 +66,23 @@ set(1.getting_started
     2.3.hello_triangle_exercise1
     2.4.hello_triangle_exercise2
     2.5.hello_triangle_exercise3
+    3.1.shaders_uniform
+    3.2.shaders_interpolation
+    3.3.shaders_class
+#    4.1.textures
+#    4.2.textures_combined
+#    4.3.textures_exercise2
+#    4.4.textures_exercise3
+#    4.5.textures_exercise4
+#    5.1.transformations
+#    5.2.transformations_exercise2
+#    6.1.coordinate_systems
+#    6.2.coordinate_systems_depth
+#    6.3.coordinate_systems_multiple
+#    7.1.camera_circle
+#    7.2.camera_keyboard_dt
+#    7.3.camera_mouse_zoom
+#    7.4.camera_class
 )
 
 
@@ -127,4 +144,4 @@ endforeach(CHAPTER)
 #target_link_libraries (LearnOpenGL "${Glfw_DIR}/glfw3.lib")
 #target_link_libraries (LearnOpenGL "glad")
 
-#include_directories(${CMAKE_SOURCE_DIR}/includes)
+include_directories(${CMAKE_SOURCE_DIR}/includes)
